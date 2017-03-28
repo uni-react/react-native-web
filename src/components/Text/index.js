@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     padding: 0,
     textDecorationLine: 'none',
     whiteSpace: 'pre-wrap',
+    position: 'relative',
     wordWrap: 'break-word'
   },
   notSelectable: {
