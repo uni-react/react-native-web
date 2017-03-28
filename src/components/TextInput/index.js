@@ -92,6 +92,7 @@ class TextInput extends Component {
       end: PropTypes.number
     }),
     style: StyleSheetPropType(TextInputStylePropTypes),
+    underlineColorAndroid: PropTypes.string,
     value: PropTypes.string
   };
 
@@ -164,6 +165,7 @@ class TextInput extends Component {
       selection,
       selectionColor,
       selectTextOnFocus,
+      underlineColorAndroid,
       /* eslint-enable */
       ...otherProps
     } = this.props;
