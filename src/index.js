@@ -16,6 +16,7 @@ import Dimensions from './apis/Dimensions';
 import Easing from 'animated/lib/Easing';
 import I18nManager from './apis/I18nManager';
 import InteractionManager from './apis/InteractionManager';
+import Keyboard from './apis/Keyboard';
 import Linking from './apis/Linking';
 import NetInfo from './apis/NetInfo';
 import PanResponder from './apis/PanResponder';
@@ -73,6 +74,7 @@ const ReactNative = {
   Easing,
   I18nManager,
   InteractionManager,
+  Keyboard,
   Linking,
   NetInfo,
   PanResponder,
