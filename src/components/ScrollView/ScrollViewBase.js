@@ -47,6 +47,7 @@ const normalizeScrollEvent = e => ({
 export default class ScrollViewBase extends Component {
   static propTypes = {
     ...ViewPropTypes,
+    keyboardShouldPersistTaps: PropTypes.oneOf(['always', 'never', 'handled', false, true]),
     onMomentumScrollBegin: PropTypes.func,
     onMomentumScrollEnd: PropTypes.func,
     onScroll: PropTypes.func,
@@ -129,6 +130,7 @@ export default class ScrollViewBase extends Component {
   render() {
     const {
       /* eslint-disable */
+      keyboardShouldPersistTaps,
       onMomentumScrollBegin,
       onMomentumScrollEnd,
       onScrollBeginDrag,
