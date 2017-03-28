@@ -29,6 +29,7 @@ import Vibration from './apis/Vibration';
 import ActivityIndicator from './components/ActivityIndicator';
 import Button from './components/Button';
 import Image from './components/Image';
+import LayoutAnimation from './components/LayoutAnimation';
 import ListView from './components/ListView';
 import ProgressBar from './components/ProgressBar';
 import ScrollView from './components/ScrollView';
@@ -84,6 +85,7 @@ const ReactNative = {
   ActivityIndicator,
   Button,
   Image,
+  LayoutAnimation,
   ListView,
   ProgressBar,
   ScrollView,
