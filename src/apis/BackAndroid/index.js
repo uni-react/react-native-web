@@ -8,7 +8,6 @@
  *
  * web stub for BackAndroid.android.js
  *
- * @providesModule BackAndroid
  */
 
 'use strict';
