@@ -33,6 +33,7 @@ import LayoutAnimation from './components/LayoutAnimation';
 import ListView from './components/ListView';
 import ProgressBar from './components/ProgressBar';
 import ScrollView from './components/ScrollView';
+import StatusBar from './components/StatusBar/index';
 import Switch from './components/Switch';
 import Text from './components/Text';
 import TextInput from './components/TextInput';
@@ -89,6 +90,7 @@ const ReactNative = {
   ListView,
   ProgressBar,
   ScrollView,
+  StatusBar,
   Switch,
   Text,
   TextInput,
